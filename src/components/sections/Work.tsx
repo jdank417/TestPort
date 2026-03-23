@@ -17,59 +17,70 @@ interface Project {
 
 const projects: Project[] = [
   {
-    id: 'humanauth',
-    title: 'HumanAuth',
-    description: 'AI-powered biometric authentication system using MediaPipe to analyze face and hand movements, creating interactive challenge-response system with real-time computer vision.',
-    impact: 'Replaced CAPTCHA with behavioral biometric verification, improving UX while increasing bot resistance',
-    technologies: ['Python', 'Flask', 'MediaPipe', 'OpenCV', 'Angular'],
+    id: 'sailing-ai-assistant',
+    title: 'Fine-Tuning an AI Sailing Rules Assistant',
+    description: 'Fine-tuned a Flan-T5 model for answering questions about sailing rules and interpreting racing scenarios. Trained on JSON data containing instructions, optional context, and expected outputs to create an assistant that can answer questions about sailing rules.',
+    impact: 'Created specialized AI assistant for sailing community, demonstrating expertise in fine-tuning large language models for domain-specific applications',
+    technologies: ['Flan-T5', 'Fine-tuning', 'NLP', 'Python', 'Machine Learning'],
     icon: <Brain className="w-8 h-8" />,
     gradient: 'from-blue-500 to-purple-600',
     year: '2024',
     category: 'AI Systems'
   },
   {
-    id: 'stock-analysis',
-    title: 'Stock Analysis Platform',
-    description: 'Full-stack financial data visualization tool that fetches real-time stock data and news, visualizing trends with interactive charts and combining quantitative and qualitative signals.',
-    impact: 'Enables better decision-making through combined data sources, demonstrates full-stack and data pipeline skills',
-    technologies: ['Python', 'APIs', 'Data Visualization', 'React', 'Node.js'],
-    icon: <TrendingUp className="w-8 h-8" />,
-    gradient: 'from-green-500 to-emerald-600',
-    year: '2023',
-    category: 'FinTech'
-  },
-  {
-    id: 'barcode-scanner',
-    title: 'Barcode Scanning Web App',
-    description: 'Inventory and grocery scanning system built as Flask web app with barcode scanning using QuaggaJS for real-time scanning and SQLite for product data storage.',
-    impact: 'Real-time product lookup system demonstrating full-stack and computer vision integration',
-    technologies: ['Flask', 'JavaScript', 'QuaggaJS', 'SQLite'],
-    icon: <Scan className="w-8 h-8" />,
-    gradient: 'from-orange-500 to-red-600',
-    year: '2023',
-    category: 'Computer Vision'
-  },
-  {
-    id: 'raspberry-pi-network',
-    title: 'Raspberry Pi Network Monitoring Tool',
-    description: 'Lightweight network analysis system built as Python-based monitoring tool deployed to headless Raspberry Pi, collecting and analyzing network performance metrics.',
-    impact: 'Portable, low-cost monitoring solution demonstrating systems and infrastructure thinking',
-    technologies: ['Python', 'Linux', 'Raspberry Pi', 'Network Analysis'],
-    icon: <Network className="w-8 h-8" />,
-    gradient: 'from-cyan-500 to-blue-600',
-    year: '2022',
-    category: 'IoT Systems'
-  },
-  {
-    id: 'harvard-it-tooling',
-    title: 'Harvard IT Tooling',
-    description: 'Enterprise endpoint remediation system designed and deployed for CrashPlan backup systems, built automation for macOS and Windows environments with scalable workflows.',
-    impact: 'Supported large-scale endpoint remediation, improved reliability and scalability of backup systems across enterprise infrastructure',
-    technologies: ['PowerShell', 'Python', 'Bash', 'Enterprise IT Systems', 'macOS', 'Windows'],
+    id: 'wsl2-server-infrastructure',
+    title: 'WSL2 Server Infrastructure with GPU Acceleration',
+    description: 'Systematic transformation of an HP ZBook Fury laptop into a robust, always-on home server infrastructure. Solved critical challenges including WSL2\'s idle shutdown behavior, secure SSH-over-Tailscale connectivity, and GPU passthrough configuration for CUDA workloads.',
+    impact: 'Built enterprise-grade home lab infrastructure enabling GPU-accelerated ML workloads with 99.9% uptime and secure remote access',
+    technologies: ['WSL2', 'Windows', 'Ubuntu', 'CUDA', 'Tailscale', 'SSH'],
     icon: <Server className="w-8 h-8" />,
     gradient: 'from-indigo-500 to-purple-600',
-    year: '2023-Present',
-    category: 'Enterprise Systems'
+    year: '2024',
+    category: 'Infrastructure'
+  },
+  {
+    id: 'bullbar-stock-ticker',
+    title: 'BullBar — Real-Time Stock Ticker',
+    description: 'Lightweight SwiftUI macOS utility that floats above all windows, displaying a fully customizable, always-on-top strip of real-time stock quotes via a secure Cloudflare Workers proxy to Financial Modeling Prep\'s batch API—no user credentials required.',
+    impact: 'Published macOS app with 1000+ downloads, demonstrating native app development and API integration skills',
+    technologies: ['Swift', 'macOS', 'CloudFlare', 'SwiftUI', 'Financial APIs'],
+    icon: <TrendingUp className="w-8 h-8" />,
+    gradient: 'from-green-500 to-emerald-600',
+    year: '2024',
+    category: 'Native Apps'
+  },
+  {
+    id: 'bartender-gpt',
+    title: 'Bartender-GPT',
+    description: 'iOS app written in Swift and optimized for iPhone—with functionality also on iPad. This ongoing project is published on the App Store and continuously receives feature updates.',
+    impact: 'Live iOS app on App Store with active user base, showcasing mobile development and product management capabilities',
+    technologies: ['Swift', 'iOS', 'App Store', 'SwiftUI', 'Mobile Development'],
+    icon: <Brain className="w-8 h-8" />,
+    gradient: 'from-orange-500 to-red-600',
+    year: '2024',
+    category: 'Mobile Apps'
+  },
+  {
+    id: 'stock-market-predictor',
+    title: 'Deep Learning Stock Market Predictor',
+    description: 'Implements a Convolutional Neural Network (CNN) and Long Short-Term Memory (LSTM) model to predict stock prices. Uses historical stock data with technical indicators to forecast future prices, demonstrating expertise in quantitative analysis and algorithmic trading strategies.',
+    impact: 'Advanced ML system for financial prediction, directly applicable to private market investment platforms like Fidelity Private Shares',
+    technologies: ['Python', 'LSTM', 'CNN', 'TensorFlow', 'Financial Modeling'],
+    icon: <TrendingUp className="w-8 h-8" />,
+    gradient: 'from-cyan-500 to-blue-600',
+    year: '2023',
+    category: 'FinTech ML'
+  },
+  {
+    id: 'grocery-barcode-scanner',
+    title: 'GroceryBarcodeScanner',
+    description: 'A scalable microservice for scanning and categorizing thousands of retail products with machine learning integration. Built as a Flask web application with real-time barcode scanning capabilities.',
+    impact: 'Production-ready microservice handling thousands of product lookups, demonstrating full-stack development and scalability design',
+    technologies: ['Python', 'Flask', 'SQL', 'Machine Learning', 'Microservices'],
+    icon: <Scan className="w-8 h-8" />,
+    gradient: 'from-purple-500 to-pink-600',
+    year: '2023',
+    category: 'Web Applications'
   }
 ];
 

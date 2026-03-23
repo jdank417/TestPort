@@ -2,6 +2,8 @@ import Hero from '@/components/sections/Hero';
 import Work from '@/components/sections/Work';
 import About from '@/components/sections/About';
 import Experience from '@/components/sections/Experience';
+import Certifications from '@/components/sections/Certifications';
+import Recommendations from '@/components/sections/Recommendations';
 import Contact from '@/components/sections/Contact';
 
 export default function Home() {
@@ -11,6 +13,8 @@ export default function Home() {
       <Work />
       <About />
       <Experience />
+      <Certifications />
+      <Recommendations />
       <Contact />
     </main>
   );

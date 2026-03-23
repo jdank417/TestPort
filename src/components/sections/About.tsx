@@ -23,21 +23,27 @@ const values = [
 
 const highlights = [
   {
-    icon: <GraduationCap className="w-8 h-8" />,
-    title: 'Harvard University IT',
-    description: 'Leading technical initiatives and infrastructure projects that serve thousands of students and faculty.',
-    gradient: 'from-blue-500 to-indigo-600'
-  },
-  {
     icon: <Users className="w-8 h-8" />,
-    title: 'Student Government Executive VP',
-    description: 'Driving strategic initiatives and representing student interests at the highest levels of university governance.',
+    title: 'Executive Vice President',
+    description: 'Wentworth Student Government - Chair to the Board of Directors, representing the student body and driving strategic initiatives.',
     gradient: 'from-purple-500 to-pink-600'
   },
   {
+    icon: <GraduationCap className="w-8 h-8" />,
+    title: 'IT Steering Committee',
+    description: 'University representative on Information Technology Steering Committee, shaping technology decisions at institutional level.',
+    gradient: 'from-blue-500 to-indigo-600'
+  },
+  {
+    icon: <Brain className="w-8 h-8" />,
+    title: 'AI Task Force',
+    description: 'School of Computing and Data Sciences AI Task Force member, contributing to AI strategy and implementation.',
+    gradient: 'from-cyan-500 to-blue-600'
+  },
+  {
     icon: <Heart className="w-8 h-8" />,
-    title: 'Passion for Innovation',
-    description: 'Constantly exploring emerging technologies and their potential to create positive change in the world.',
+    title: 'Sailing Team Captain',
+    description: 'President and Captain of Wentworth Sailing Team, competing in large yacht racing in Marblehead, MA during summers.',
     gradient: 'from-green-500 to-emerald-600'
   }
 ];
@@ -106,27 +112,27 @@ export default function About() {
           >
             <div className="space-y-4">
               <p className="text-lg text-gray-300 leading-relaxed">
-                I'm a software engineer and technical leader with a passion for building systems that actually matter. Currently working at Harvard University IT, I focus on creating scalable solutions that serve thousands of users while maintaining the highest standards of reliability and performance.
+                Full Stack Software Engineer at Fidelity Investments, building scalable solutions for private market investments. Computer Science major with minors in data science, business analytics, applied mathematics, and computer networking at Wentworth Institute of Technology.
               </p>
               
               <p className="text-lg text-gray-300 leading-relaxed">
-                My journey spans from AI systems and biometric authentication to financial platforms and IoT networks. I believe in the power of thoughtful engineering to solve real-world problems and create meaningful impact.
+                My experience spans enterprise IT operations at Harvard University, AI systems development, and financial technology. I've built everything from fine-tuned language models for sailing rules to real-time stock tickers for macOS, always focusing on systems that solve real problems.
               </p>
               
               <p className="text-lg text-gray-300 leading-relaxed">
-                Beyond technical work, I serve as Executive Vice President of Student Government, where I drive strategic initiatives and advocate for student interests. This role has taught me the importance of balancing technical excellence with human-centered design.
+                As Executive Vice President of Wentworth Student Government and member of the IT Steering Committee and AI Task Force, I bridge technical excellence with leadership and strategic thinking. I'm passionate about developing resources for artificial intelligence and creating meaningful technology solutions.
               </p>
             </div>
 
             {/* Quick Stats */}
             <div className="grid grid-cols-2 gap-6 pt-6">
               <div className="text-center">
-                <div className="text-3xl font-bold text-green-400 mb-1">5+</div>
+                <div className="text-3xl font-bold text-green-400 mb-1">4+</div>
                 <div className="text-sm text-gray-400 uppercase tracking-wider">Years Experience</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-green-400 mb-1">10+</div>
-                <div className="text-sm text-gray-400 uppercase tracking-wider">Projects Delivered</div>
+                <div className="text-3xl font-bold text-green-400 mb-1">15+</div>
+                <div className="text-sm text-gray-400 uppercase tracking-wider">Projects Completed</div>
               </div>
             </div>
           </motion.div>

@@ -20,74 +20,94 @@ interface ExperienceItem {
 const experiences: ExperienceItem[] = [
   {
     id: 'fidelity',
-    title: 'Incoming Full Stack Engineer',
+    title: 'Full Stack Software Engineer',
     company: 'Fidelity Investments',
-    location: 'Boston, MA',
-    period: 'Starting 2024',
+    location: 'Merrimack, NH',
+    period: 'Apr 2026 - Present',
     type: 'current',
-    description: 'Joining Fidelity as a full-stack engineer to build scalable financial technology solutions serving millions of customers.',
+    description: 'Building full-stack applications for the Fidelity Private Shares platform, developing scalable solutions for private market investments serving institutional and high-net-worth clients.',
     achievements: [
-      'Selected for competitive full-stack engineering role',
-      'Will contribute to mission-critical financial systems',
-      'Focus on building customer-facing applications',
-      'Part of next-generation fintech development team'
+      'Developing scalable solutions for private market investments',
+      'Building full-stack applications using modern web technologies',
+      'Enhancing user experience for private equity and venture capital transactions',
+      'Collaborating with cross-functional teams to deliver high-quality financial technology solutions'
     ],
-    technologies: ['React', 'Java', 'Spring Boot', 'AWS', 'Microservices'],
+    technologies: ['React', 'Node.js', 'Java', 'Spring Boot', 'Financial Technology', 'Private Markets'],
     icon: <Code2 className="w-6 h-6" />,
     gradient: 'from-green-500 to-emerald-600'
   },
   {
-    id: 'harvard-it',
-    title: 'Endpoint Systems Engineer',
-    company: 'Harvard University IT',
+    id: 'harvard-it-recent',
+    title: 'Endpoint Systems Engineer Intern',
+    company: 'Harvard University',
     location: 'Cambridge, MA',
-    period: '2023 - Present',
-    type: 'current',
-    description: 'Leading enterprise endpoint management and infrastructure projects, designing scalable solutions for thousands of university devices.',
+    period: 'Aug 2025 - Mar 2026',
+    type: 'past',
+    description: 'Continued advanced work on Harvard University Endpoint Solutions team, focusing on enterprise-scale system administration and automation.',
     achievements: [
-      'Designed and deployed CrashPlan remediation systems',
-      'Built automation for macOS and Windows environments',
-      'Created scalable workflows for technicians and self-service',
-      'Improved backup system reliability across enterprise infrastructure'
+      'Continued development of enterprise endpoint management solutions',
+      'Advanced shell scripting and automation projects',
+      'Agile project management for IT infrastructure initiatives',
+      'Jamf and SCCM system administration at university scale'
     ],
-    technologies: ['PowerShell', 'Python', 'Bash', 'Enterprise IT Systems', 'macOS', 'Windows'],
+    technologies: ['Shell Scripting', 'Agile Project Management', 'Jamf', 'SCCM', 'Enterprise IT'],
     icon: <Server className="w-6 h-6" />,
     gradient: 'from-blue-500 to-indigo-600'
   },
   {
-    id: 'student-government',
-    title: 'Executive Vice President',
-    company: 'Harvard Student Government',
-    location: 'Cambridge, MA',
-    period: '2022 - Present',
-    type: 'current',
-    description: 'Driving strategic initiatives and representing student interests at the highest levels of university governance.',
+    id: 'mouthwatchers',
+    title: 'IT Services Consultant',
+    company: 'MouthWatchers',
+    location: 'Beverly, MA',
+    period: 'Jun 2025 - Aug 2025',
+    type: 'past',
+    description: 'Contracted to audit all technical aspects of the company and engineer a complete migration from Network Solutions to Google for all company email services and hosting.',
     achievements: [
-      'Spearheaded policy changes affecting 20,000+ undergraduate students',
-      'Managed $2M+ annual budget for student programs and initiatives',
-      'Built coalition partnerships with 50+ student organizations',
-      'Launched mental health and academic support programs'
+      'Conducted comprehensive technical audit of company infrastructure',
+      'Engineered seamless migration with only 15 minutes of downtime',
+      'Migrated email services and hosting to Google platform',
+      'Provided post-launch support and optimization'
     ],
+    technologies: ['DevOps', 'Google Workspace', 'Email Migration', 'Infrastructure Audit'],
+    icon: <Server className="w-6 h-6" />,
+    gradient: 'from-cyan-500 to-blue-600'
+  },
+  {
+    id: 'wicked-pickleball',
+    title: 'Technical Program and Operations Manager',
+    company: 'Wicked Pickleball',
+    location: 'Boston, MA',
+    period: 'May 2025 - Aug 2025',
+    type: 'past',
+    description: 'Managed team of sales and marketing specialists, oversaw contractor relationships, and served as lead engineer for testing and development of MVPs for new platforms.',
+    achievements: [
+      'Managed cross-functional team of sales and marketing specialists',
+      'Oversaw contractor relationships and project delivery',
+      'Led engineering for MVP development and testing',
+      'Drove business initiatives through technical leadership'
+    ],
+    technologies: ['Agile Project Management', 'Team Leadership', 'MVP Development', 'Cross-functional Management'],
     icon: <Users className="w-6 h-6" />,
     gradient: 'from-purple-500 to-pink-600'
   },
   {
-    id: 'engineering-hope',
-    title: 'Tech Leadership',
-    company: 'Engineering Hope',
+    id: 'harvard-it-initial',
+    title: 'Endpoint Systems Engineer Intern',
+    company: 'Harvard University',
     location: 'Cambridge, MA',
-    period: '2021 - Present',
-    type: 'current',
-    description: 'Leading technical initiatives and mentoring students in engineering and technology, fostering innovation and community impact.',
+    period: 'Jan 2025 - Apr 2025',
+    type: 'past',
+    description: 'Designed and implemented custom monitoring applications, developed Mac device renaming solution used across Harvard departments, and rewrote comprehensive imaging documentation.',
     achievements: [
-      'Mentored 20+ students in technical skills and career development',
-      'Led workshops on software engineering and AI systems',
-      'Built partnerships with tech companies for student opportunities',
-      'Developed curriculum for emerging technology education'
+      'Designed custom monitoring applications for multiple platforms',
+      'Developed Mac device renaming solution deployed university-wide',
+      'Rewrote comprehensive imaging documentation improving technician onboarding',
+      'Automated workflows with PowerShell and Unix scripting',
+      'Earned Jamf certifications and contributed to cloud printing infrastructure'
     ],
-    technologies: ['Python', 'JavaScript', 'AI/ML', 'Web Development', 'Mentorship'],
-    icon: <TrendingUp className="w-6 h-6" />,
-    gradient: 'from-orange-500 to-red-600'
+    technologies: ['Shell Scripting', 'Linux', 'Jamf', 'System Administration', 'Jira Align', 'PowerShell'],
+    icon: <Server className="w-6 h-6" />,
+    gradient: 'from-indigo-500 to-purple-600'
   }
 ];
 
