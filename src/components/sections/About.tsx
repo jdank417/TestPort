@@ -67,7 +67,9 @@ export default function About() {
           className="mb-32"
         >
           <h2 className="font-hero text-display font-black text-white mb-8 leading-tight tracking-tight">
-            ABOUT
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-400 to-blue-500">
+              ABOUT
+            </span>
           </h2>
           <p className="font-editorial text-large text-gray-300 max-w-2xl leading-relaxed">
             Technical leader. Product builder. Systems thinker.

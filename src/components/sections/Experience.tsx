@@ -131,8 +131,10 @@ export default function Experience() {
           viewport={{ once: true }}
           className="text-center mb-20"
         >
-          <h2 className="font-heading text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6">
-            Experience
+          <h2 className="font-hero text-display font-black text-white mb-8 leading-tight tracking-tight">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-teal-400 to-cyan-500">
+              EXPERIENCE
+            </span>
           </h2>
           <p className="font-body text-xl sm:text-2xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
             A journey of building impactful systems, leading teams, and creating meaningful change through technology and leadership.

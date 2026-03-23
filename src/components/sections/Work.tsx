@@ -128,8 +128,11 @@ export default function Work() {
           viewport={{ once: true }}
           className="mb-32"
         >
-          <h2 className="font-display text-display font-bold text-white mb-8 leading-tight">
-            Selected Work
+          <h2 className="font-hero text-display font-black text-white mb-8 leading-tight tracking-tight">
+            SELECTED
+            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-emerald-400 to-green-500">
+              WORK
+            </span>
           </h2>
           <p className="font-body text-editorial text-gray-300 max-w-2xl leading-relaxed">
             Systems that solve real problems. Products that create meaningful impact. 

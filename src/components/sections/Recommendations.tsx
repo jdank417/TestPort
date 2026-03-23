@@ -44,8 +44,10 @@ export default function Recommendations() {
           viewport={{ once: true }}
           className="mb-32"
         >
-          <h2 className="font-display text-display font-bold text-white mb-8 leading-tight">
-            Recommendations
+          <h2 className="font-hero text-display font-black text-white mb-8 leading-tight tracking-tight">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-orange-400 to-red-500">
+              RECOMMENDATIONS
+            </span>
           </h2>
           <p className="font-body text-editorial text-gray-300 max-w-2xl leading-relaxed">
             Perspectives from colleagues and institutions on technical expertise and leadership impact.

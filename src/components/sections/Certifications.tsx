@@ -48,8 +48,10 @@ export default function Certifications() {
           viewport={{ once: true }}
           className="text-center mb-20"
         >
-          <h2 className="font-heading text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6">
-            Certifications
+          <h2 className="font-hero text-display font-black text-white mb-8 leading-tight tracking-tight">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-purple-500">
+              CERTIFICATIONS
+            </span>
           </h2>
           <p className="font-body text-xl sm:text-2xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
             Professional certifications and credentials that validate technical expertise and knowledge in enterprise systems management.
