@@ -1,5 +1,3 @@
-'use client';
-
 import { motion } from 'framer-motion';
 import { ArrowLeft, ExternalLink, Github, Calendar, Tag, Target, Lightbulb, Code, TrendingUp } from 'lucide-react';
 import Link from 'next/link';
@@ -112,6 +110,12 @@ const projectDetails: Record<string, ProjectDetail> = {
     gradient: 'from-indigo-500 to-purple-600'
   }
 };
+
+export async function generateStaticParams() {
+  return Object.keys(projectDetails).map((slug) => ({
+    slug: slug,
+  }));
+}
 
 export default function ProjectPage({ params }: { params: { slug: string } }) {
   const project = projectDetails[params.slug];
